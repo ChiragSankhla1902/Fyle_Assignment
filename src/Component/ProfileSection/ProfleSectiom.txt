@@ -1,0 +1,1 @@
+This FOlder Contains the Header part of the application that is avatar name and all the stuff

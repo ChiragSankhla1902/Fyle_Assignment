@@ -1,0 +1,41 @@
+.RepoContianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    width: 40%;
+    padding: 2%;
+    height: 150px;
+    margin: 2% 2%;
+    border: 1px solid black;
+}
+.RepoName{
+    color: rgb(12, 170, 255);
+    margin: 0px;
+    font-size: 40px;
+}
+
+.Repolang{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.LangBox{
+    width: max-content;
+    height: max-content;
+    padding: 2%;
+    color: white;
+    margin: 0px;
+    margin:0% 2%;
+    background-color: rgb(3, 172, 250);
+    border-radius: 2px;
+    text-align: center;
+}

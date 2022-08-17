@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.ProfileContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.AvatarContainer{
+    width: 20%;
+}
+
+.AvatarImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* padding: 2px; */
+    border: 1px solid rgba(62, 61, 61, 0.245);
+    font-family: 'Inter';
+    overflow: hidden;
+
+}
+
+.UserDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    width: 80%;
+    font-family: 'Inter';
+}
+
+.UserDetails h3{
+    font-size: 15px;
+    font-weight: 500;
+}

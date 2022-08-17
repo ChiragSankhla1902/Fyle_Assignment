@@ -1,0 +1,18 @@
+.GitSectionContianer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    
+}
+
+.backIcon{
+        position: absolute;
+        left: 5px;
+        top: 5px;
+}
+.backIcon:hover{
+        cursor: pointer;
+}
