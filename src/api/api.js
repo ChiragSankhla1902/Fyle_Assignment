@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-var token='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'
+var token='Token'
 export const UserProfile=(ProfileName)=>{
     
     return axios.get(`https://api.github.com/users/${ProfileName}`,{
@@ -8,8 +8,8 @@ export const UserProfile=(ProfileName)=>{
         Authorization:token
       }})
 }
-export const getUserRepo=(ProfileName)=>{
-    return axios.get(`https://api.github.com/users/${ProfileName}/repos`,{ 
+export const getUserRepo=(ProfileName,pagenumber)=>{
+    return axios.get(`https://api.github.com/users/${ProfileName}/repos?page=${pagenumber}&per_page=10`,{ 
         headers:{
         Authorization:token
     }

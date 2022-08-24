@@ -8,13 +8,13 @@ const ProfileSection = (props) => {
     <div className='ProfileContainer'>
         <div className='AvatarContainer'>
             <div className='AvatarImg'>
-              <img width='100%' src={props.Details.avatar_url}/>
+              <img width='100%' src={props.Details?.avatar_url}/>
             </div>
         </div>
         <div className='UserDetails'>
-            <h3>{props.Details.name}</h3>
-            <h3>{props.Details.bio}</h3>
-            <h3>{props.Details.url}</h3>
+            <h3>{props.Details?.name}</h3>
+            <h3>{props.Details?.bio}</h3>
+            <h3>{props.Details?.url}</h3>
         </div>
     </div>
 

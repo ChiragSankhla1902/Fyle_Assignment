@@ -12,6 +12,7 @@ const UserName = (props) => {
     e.preventDefault()
     if(ProfileName!=='')
     {
+      
       dispatch(getUserProfile(ProfileName,props.setshowGit))
       dispatch(getUserRepo(ProfileName,props.setshowGit))
       
